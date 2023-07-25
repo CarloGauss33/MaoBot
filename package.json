@@ -1,0 +1,23 @@
+{
+  "name": "MaoBot",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "repository": "https://github.com/CarloGauss33/MaoBot.git",
+  "author": "Carlos Paredes <cparedesr@uc.cl>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.4.5",
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.12.2",
+    "typegram": "^5.0.0",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "start": "npx tsc && node build/index.js",
+    "dev": "ts-node src/app.ts",
+    "build": "npx tsc"
+  }
+}
