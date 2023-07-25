@@ -2,23 +2,21 @@
 
 How to use the bot:
 
-You require python 3.5 or higher. and the following modules:
+You require Node 14 or higher. And Yarn installed
+
+Simply run to install all dependencies
+```
+yarn install
+```
+
+Use the provided env example to create your own env file
 
 ```
-pip install python-telegram-bot
-pip install python-dotenv
-pip install bs4 // Optional
-```
-Also, you need to create a .env file with the following variables:
-
-```
-TELEGRAM_TOKEN=<your_telegram_token>
+cp .env.example .env
 ```
 
 And then run the bot with:
 
 ```
-python3 mao_bot_service.py
+yarn start
 ```
-
-TODO: Heavy refactor
