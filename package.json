@@ -16,7 +16,7 @@
     "ts-node": "^10.9.1"
   },
   "scripts": {
-    "start": "npx tsc && node build/index.js",
+    "start": "npx tsc && cp -r src/fixtures bin/fixtures && node bin/app.js",
     "dev": "ts-node src/app.ts",
     "build": "npx tsc"
   }
